@@ -30,18 +30,8 @@ button:hover{
 	transform: scale(1.2)
 }
 
-*:focus{
-	outline:none;
-}
 
-*:active{
-	outline:none;
-}
 
- *{
-         -webkit-tap-highlight-color: rgba(0,0,0,0);
-         -webkit-tap-highlight-color: transparent; /* For some Androids */
-    }
 
 /*--------------------logo-------------------*/
 
@@ -349,8 +339,18 @@ form input:focus{
 
 
 
+*:focus{
+	outline:none;
+}
 
+*:active{
+	outline:none;
+}
 
+ *{
+         -webkit-tap-highlight-color: rgba(0,0,0,0);
+         -webkit-tap-highlight-color: transparent; /* For some Androids */
+    }
 
 
 

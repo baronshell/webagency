@@ -70,6 +70,13 @@ header{
 }
 
 @media(max-width: 414px){
+	input::placeholder{
+		font-size: 10px;
+	}
+	.container{
+		width: 100%;
+		padding-right: 0;
+	}
 form p{
 	font-size: 12px;
 }
