@@ -1,0 +1,124 @@
+@media(max-width: 1366px) {
+ #main{
+padding-top:80px;
+ }
+ #col-1 h1{
+ 	font-size: 70px;
+ }
+}
+
+@media(max-width: 1280px){
+
+	#col-1 button{
+		width: 100%;
+		margin-top: 30px;
+	}
+	#leftbtn{
+		margin-bottom: 30px;
+	}
+
+}
+
+@media(max-width: 812px){
+#modal,#modal1{
+	width: 90vw;
+}
+
+#col-1{
+	width: 100%;
+	margin-top: 90px;
+		text-align: center;
+}
+header{
+	text-align: center;
+}
+#col-1 h1{
+	font-size: 30px;
+	margin-bottom: 30px;
+	}
+}
+
+
+
+@media(max-width: 800px){
+#modal,#modal1{
+	max-width: 90vw;
+}
+
+#col-1{
+	width: 100%;
+	margin-top: 90px;
+		text-align: center;
+}
+header{
+	text-align: center;
+}
+#col-1 h1{
+	font-size: 50px;
+	margin-bottom: 30px;
+	}
+
+	#logo,#tel,#order{
+		width: 100%;
+		float:none;
+	}
+	#telorder{
+		float:none;
+		display: block;
+	}
+
+}
+
+@media(max-width: 414px){
+form p{
+	font-size: 12px;
+}
+	#modal,#modal1{
+max-width: 90vw;
+}
+#col-1 h1{
+	font-size: 30px;
+	margin-bottom: 30px;
+	}	
+	#col-1{
+	width: 100%;
+	text-align: center;
+	margin-top: 0;
+}
+#col-1 button{
+	font-size: 20px;
+}
+#col-1 button img{
+	max-width: 23px!important;
+}
+}
+
+
+
+
+
+@media(max-width: 360px){
+
+	#modal,#modal1{
+	max-width: 90vw;
+}
+form p{
+	font-size: 12px;
+}
+
+#col-1 h1{
+	font-size: 30px;
+	margin-bottom: 30px;
+	}	
+	#col-1{
+	width: 100%;
+	text-align: center;
+	margin-top: 0;
+}
+#col-1 button{
+	font-size: 18px;
+}
+#col-1 button img{
+	max-width: 23px!important;
+}
+}

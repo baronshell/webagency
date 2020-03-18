@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name='viewport' content='width=device-width,initial-scale=1'>
+	<meta name='keywords' content='Разработка многостраничных сайтов,лендинг пейдж,продающие лендинги,студия веб-дизайна,создать сайт,создание сайта в Уфе,продвижение сайтов,профессиональная разработка сайтов'>
+	<meta name='description' content='Разработка многостраничных сайтов, Лендинг пейдж под ключ в Уфе.Студия веб-разработки Baron Sell'>
+
+
+
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Exo+2:400,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="mediastyle.css">
+
+	<script src='script.js'></script>
+
+	<title>Разработка сайтов под ключ в Уфе.Baron Sell</title>
+</head>
+<body>
+
+
+
+	<header>
+	<div class="container">
+
+
+		<!------------logo---------------->
+		<div id="logo">	
+		     <img src="logo.png" alt="Baron Shell логотип">
+		     <h1>Baron <span class='highlight'>Shell</span></h1>
+	    </div>
+        <!--^^^^^^^^^^^^^^^logo^^^^^^^^^^-->
+
+
+	    <div id="telorder">	
+		    <div id="tel">
+			     <h2>8 (982) 961 7858</h2></div>	
+			<div id="order"> 
+			     <button onclick='modalshow()'><i class="fa fa-volume-control-phone"></i><span>Заказать звонок</span></button></div>  		  	
+	    </div>
+	</div>		
+	</header>
+
+
+
+
+
+	<section>
+	<div id="main">
+	<div class="container">	
+	     <div id="col-1">
+		      <h1>Создание сайтов под ключ в Уфе</h1>
+		      <button onclick='modalshow1()'>Отправить заявку</button>
+		      <button id='leftbtn'><a href="">Наши работы<img style='margin-left: 10px;max-width:43px;padding-left:2px'src="ilogo.png" alt="instagram"></a></button>
+	     </div>	
+	  
+	</div>	
+    </div>
+	</section>
+
+
+
+
+
+
+<!------------------------------------------modals--------------------------------------------->
+
+<section class="hidden">
+	<div id="modal">
+<span id="X" onclick='hide()'>x</span>	
+
+<h2>Заказать звонок</h2>
+
+
+<form method="post" action="http://formspree.io/your@email.com">
+<div class="nt">
+<input required class='half fi ' id='name' placeholder='Имя' type="text">
+<input required class='half fi' placeholder='Телефон' id='tel' type="tel"></div>	
+<input class='fi' id='comment' required placeholder="Комментарий" type="text">
+<p>Нажимая на кнопку «Отправить», я даю согласие на обработку персональных данных</p>
+<button id='submit' type='submit' >Отправить<i class='fab fa-telegram-plane' style='font-size:24px;margin-left:7px'></i></button>
+</form>
+</div>
+</section>
+
+<section class="hidden">
+	<div id="modal1">
+<span id="X" onclick='hide()'>x</span>	
+
+<h2>Заказать Лендинг</h2>
+
+
+<form method="post" action="http://formspree.io/your@email.com">
+<div class="nt">
+<input required class='half fi' id='name' placeholder='Имя' type="text">
+<input required class='half fi' id='tel' placeholder='Телефон' type="tel"></div>	
+<input class='fi' id='comment' required placeholder="Описание проекта" type="text">
+<p>Нажимая на кнопку «Отправить», я даю согласие на обработку персональных данных</p>
+<button id='submit' type='submit' >Заказать<i class='fab fa-telegram-plane' style='font-size:24px;margin-left:7px'></i></button>
+
+
+
+</form>
+</div>
+</section>
+
+
+
+
+
+
+
+<!----------------footer--------------->
+	<footer>
+		
+		<div class="container">
+		<h1>Студия веб-разработки <span>Baron</span> <span class='highlight'>Shell</span>&nbsp;2020&copy;</h1>
+	    </div>	
+	    
+	</footer>
+
+
+
+</body>
+</html>

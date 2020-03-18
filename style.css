@@ -1,0 +1,345 @@
+
+body{
+	font-family: 'Exo 2', sans-serif;
+	line-height: 1.5;
+	font-size:18px;
+	font-weight: 900;
+
+	height:100vh;
+}
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.container{
+	width: 80%;
+	margin: 0 auto;
+	overflow: hidden;
+	padding-right: 30px;
+	padding-bottom: 10px;
+}
+button{
+	font-family: 'Exo 2', sans-serif;
+	font-weight: 400;
+	transition: transform.2s;
+}
+button:hover{
+	transform: scale(1.2)
+}
+
+
+
+/*--------------------logo-------------------*/
+
+#logo img{
+	width:30px;
+}
+#logo h1{
+	display: inline;
+	margin-left: 10px;
+	color:black;
+	font-size: 20px;
+}
+.highlight{
+	color:#1598c3;
+}
+
+/*--------------------header--------------------*/
+
+header{
+	background-color: rgba(255,255,255,1);
+	min-height: 30px;
+	padding-top: 15px;
+	padding-bottom: ;
+}
+#logo{
+	float: left;
+}
+
+
+
+#telorder{
+	float:right;
+	display: -webkit-inline-flex;
+	display: -moz-inline-flex;
+	display: -ms-inline-flex;
+	display: -o-inline-flex;
+	display: inline-flex;
+	margin-top: 5px;
+}
+#tel{
+	margin-right: 4rem;
+	float:left;
+}
+#tel h2{
+	color:rgba(21,152,195,0.9)
+}
+
+#order{
+	float: left;
+}
+#order button{
+	padding: 10px 40px;
+	border-radius: 30px;
+	background-color: rgba(21,152,195,0.9);
+	border:none;
+
+}
+#order span{
+	font-size: 20px;
+	color:white;
+}
+#order button i{
+	font-size: 21px;
+	margin-right: 4px;
+	transform: rotate(-45deg);
+	color:white;
+}
+
+
+
+
+
+/*-------------------main----------------------*/
+
+#main{
+	background-image:url(mainbg.jpg);
+	background-repeat:  no-repeat
+	-webkit-background-size: cover;
+	background-size: cover;
+min-height: 87vh;
+	padding-top: 10%;
+	
+}
+#col-1{
+	
+	width:70%;
+	margin:0 auto;
+
+}
+#col-1 h1{
+	font-size: 80px;
+	line-height: 1.2;
+	color:#1598c3;
+	text-transform: uppercase;
+  background: linear-gradient(45deg, #163c67 33%, #c8e2ff 46%, #fffdfc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: 1.2px;
+}
+
+
+
+#col-1 button{
+	padding: 20px 50px;
+	border-radius: 30px;
+	background-color:black;
+	border:none;
+	color:rgba(255,255,255,0.9);
+	font-size: 30px;
+	margin-top: 60px;
+	float:right;
+}
+#col-1 #leftbtn{
+	
+	float:left;
+	background-color:rgba(255,255,255,0.8);
+	
+}
+#leftbtn a{
+	text-decoration:none;
+	display: -webkit-inline-flex;
+	display: -moz-inline-flex;
+	display: -ms-inline-flex;
+	display: -o-inline-flex;
+	display: inline-flex;
+	color:rgba(21,152,195,0.9);
+}
+
+
+
+
+
+
+
+
+
+
+/*--------------------footer-------------------------*/
+
+footer{
+	text-align: start;
+	background-color:#163c67;
+}
+footer h1{
+	font-size: 14px;
+    color:white;
+    padding: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------------------------------------modals-------------------*/
+
+
+
+
+#modal,#modal1{
+	max-width: 50vw;
+	background-color:white;
+	z-index: 10;
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	animation-duration: .6s;
+	border-radius: 10px;
+display: none;
+}
+#X{
+	float: right;
+	color:rgba(0,0,0,0.4);
+	font-size: 20px;
+	padding: 0 15px;
+}
+#X:hover{
+cursor: default;
+}
+
+@keyframes appear{
+
+from{
+	
+	top:-5000px;
+}
+to{
+
+	top:50%;
+}
+
+}
+
+
+
+
+
+#modal h2,#modal1 h2{
+		
+	    font-size: 45px;
+    font-weight: 700;
+    line-height: 43.32px;
+    margin-bottom: 60px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #3a3a3a;
+clear: both;
+font-weight: 700;
+}
+
+form{
+	width: 100%;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: column;
+	padding:10px 20px;
+}
+
+.half{
+	width: 50%;
+	float: left;
+}
+
+.nt{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+
+form input{
+	height: 50px;
+	margin-top: 50px;
+}
+
+form p{
+	margin-top: 50px;
+	width:90%;
+	line-height: 1.3rem;
+		font-family: 'Prompt', sans-serif;
+	color: #3a3a3a;
+	font-size: 16px;
+	opacity: 0.5;
+}
+
+form p::selection{
+	color:white;
+	background-color: red;
+	opacity:1;
+}
+
+#name{
+	margin-right: 20px;
+}
+
+#submit{
+	margin-top: 20px;
+	background-color:rgba(21,152,195,0.9) ;
+	
+	font-size: 30px;
+	color:white;
+	border-radius: 9px;
+	border:2px solid rgba(21,152,195,0.9);
+	letter-spacing: 1.1px;
+	height:60px;
+	line-height: 2px;
+	transition: all .3s ease;
+}
+
+#submit:hover{
+	color:rgba(21,152,195,0.9);
+	background-color: white;
+		border:2px solid rgba(21,152,195,0.9);
+}
+
+input::placeholder{
+	font-family: 'Prompt', sans-serif;
+	color: #3a3a3a;
+	font-size: 16px;
+	margin-left: 5px;
+}
+
+.fi{
+border:none;	
+	border-bottom: 1px solid #d8d8d8;
+padding-left: 10px;
+}
+
+form input:focus{
+	border-bottom: 1px solid #e91b0c;
+	transition: border-bottom .4s;
+	color:rgba(0,0,0,0.7);
+}
+
+
+
+
+
+
+
+
