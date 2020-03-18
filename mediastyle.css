@@ -96,7 +96,8 @@ max-width: 90vw;
 	font-size: 20px;
 }
 #col-1 button img{
-	max-width: 23px!important;
+	max-width: 20px!important;
+	max-height:21px!important;
 }
 }
 
